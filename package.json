@@ -1,6 +1,6 @@
 {
   "name": "@aomi/common-exception",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
   "license": "MIT",
@@ -17,6 +17,21 @@
     "CHANGELOG.md"
   ],
   "exports": {
+    "./exceptions/resources/*": {
+      "require": "./cjs/exceptions/resources/*.js",
+      "types": "./types/exceptions/resources/*.d.ts",
+      "import": "./esm/exceptions/resources/*.js"
+    },
+    "./exceptions/*": {
+      "require": "./cjs/exceptions/*.js",
+      "types": "./types/exceptions/*.d.ts",
+      "import": "./esm/exceptions/*.js"
+    },
+    "./*": {
+      "require": "./cjs/*.js",
+      "types": "./types/*.d.ts",
+      "import": "./esm/*.js"
+    },
     "./package.json": "./package.json",
     ".": {
       "require": "./cjs/index.js",
