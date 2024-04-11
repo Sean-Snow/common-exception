@@ -1,4 +1,5 @@
 export enum ErrorCode {
+  SUCCESS = '0000',
   EXCEPTION = '3000',
   PARAMS_ERROR = '3001',
 
