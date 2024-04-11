@@ -1,6 +1,6 @@
 {
   "name": "@aomi/common-exception",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
   "license": "MIT",
