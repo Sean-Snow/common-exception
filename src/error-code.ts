@@ -4,4 +4,6 @@ export enum ErrorCode {
 
   RESOURCE_EXIST = '3301',
   RESOURCE_NON_EXIST = '3302',
+
+  UNAUTHORIZED = '3210',
 }
